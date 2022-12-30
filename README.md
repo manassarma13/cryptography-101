@@ -1,2 +1,2 @@
 # cryptography-101
-Simple example of how cryptography can be implemented in Node.js using a built-in library like crypto
+Simple example of how cryptography can be implemented in Node.js using a library like crypto, which is a built-in module in Node.js. The key is a random secret value that is used to encrypt and decrypt the message. The cipher object is used to encrypt the message, and the decipher object is used to decrypt it.  The update and final methods are used to encrypt and decrypt the message in chunks, and the getAuthTag and setAuthTag methods are used to retrieve and set the authentication tag, which is used to verify the integrity of the message.
