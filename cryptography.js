@@ -1,6 +1,3 @@
-//simple example of how cryptography can be implemented in Node.js using a library like crypto, which is a built-in module in Node.js.
-//Thanks yo
-
 const crypto = require('crypto');
 
 // Generate a random secret key
